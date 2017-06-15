@@ -10,14 +10,14 @@ $("img").click(function(){
 
 
 if(currentQuote == quote1){
- $("h1").hide(1000)
+ $("h1").fadeOut(1000)
  $("h1").text(quote2);
- $("h1").show(1000)
+ $("h1").fadeIn(1000)
 } 
 if(currentQuote == quote2){
- $("h1").hide(1000)
+ $("h1").fadeOut(1000)
  $("h1").text(quote1);
- $("h1").show(1000)
+ $("h1").fadeIn(1000)
 }
 
 

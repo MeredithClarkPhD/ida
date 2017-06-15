@@ -10,11 +10,10 @@ $("img").click(function(){
 	alert(currentQuote);
 
 if(currentQuote == quote1){
-//put the text of quote2 into the h1
  $("h1").text(quote2);
-} else {
- //put the text of quote1 into the h1
- $("h1")text(quote1);
+} 
+if(currentQuote == quote2){
+ $("h1").text(quote1);
 }
 
 

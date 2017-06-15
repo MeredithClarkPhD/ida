@@ -1,0 +1,22 @@
+body {
+  background-color: #3C3620;
+}
+
+img {
+  margin: 40px auto 0;
+  display: block;
+  border: 2px solid #ddd;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
